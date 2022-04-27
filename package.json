@@ -1,0 +1,19 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Proyecto 3 de la semana 3 en LaunchX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JossPerezT/twitter.git"
+  },
+  "author": "jocelynperez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JossPerezT/twitter/issues"
+  },
+  "homepage": "https://github.com/JossPerezT/twitter#readme"
+}
