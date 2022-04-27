@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JossPerezT/twitter/issues"
   },
-  "homepage": "https://github.com/JossPerezT/twitter#readme"
+  "homepage": "https://github.com/JossPerezT/twitter#readme",
+  "devDependencies": {
+    "jest": "^28.0.2"
+  }
 }
