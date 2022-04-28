@@ -14,6 +14,7 @@ describe ('1. Test para UserService', ()=>{
         expect(userInfoList[0]).toBe(1)
         expect(userInfoList[1]).toBe("jocelynperez")
         expect(userInfoList[2]).toBe("Jocelyn")
-        expect(userInfoList[3]).toBe("Sin bio")
+        expect(userInfoList[3]).toBe("Sin")
+        expect(userInfoList[4]).toBeDefined()
     })
 })
