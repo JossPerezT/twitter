@@ -17,4 +17,12 @@ describe ("TDD para User class", () =>{
         expect(user_Joss.getDateCreated).toBeDefined()
         expect(user_Joss.getLastUpdated).not.toBeUndefined()
     })
+    test ('Setters', ()=>{
+        const user_Joss = new User (1, "jocelynperez", "Jocelyn", "bio")
+        user_Joss.setUserName = "Perez Trejo"
+        expect(user_Joss.userName).toBe("Perez Trejo")
+
+        user_Joss.setBio = "Mi biografía"
+        expect(user_Joss.bio).toBe("Mi biografía")
+    })
 })
