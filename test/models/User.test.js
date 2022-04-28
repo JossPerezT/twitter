@@ -11,7 +11,7 @@ describe ("TDD para User class", () =>{
         expect(user_Joss.lastUpdated).toBeDefined()
     })
     test ("Getters", () =>{
-        const user_Joss = new User ( 1, "jocelyn", "Jocelyn", "bio")
+        const user_Joss = new User ( 1, "jocelynperez", "Jocelyn", "bio")
         expect(user_Joss.getUserName).toBe("jocelynperez")
         expect(user_Joss.getBio).toBe("bio")
         expect(user_Joss.getDateCreated).toBeDefined()
