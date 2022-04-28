@@ -19,7 +19,7 @@ describe ("TDD para User class", () =>{
     })
     test ('Setters', ()=>{
         const user_Joss = new User (1, "jocelynperez", "Jocelyn", "bio")
-        user_Joss.setUserName = "Perez Trejo"
+        user_Joss.setUserName = "Perez, Trejo"
         expect(user_Joss.userName).toBe("Perez Trejo")
 
         user_Joss.setBio = "Mi biografía"
