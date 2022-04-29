@@ -27,7 +27,7 @@ describe ('1. Test para UserService', ()=>{
         const user1 = UserService.create (1, "jocelynperez1", "Jocelyn")
         const user2 = UserService.create (2, "jocelynperez2", "Jocelyn")
         const user3 = UserService.create (2, "jocelynperez3", "Jocelyn")
-        const userNames = UserService.getAllUserNames([user1,user2,user3])
+        const userNames = UserService.getAllUserNames(user1,user2,user3)
         expect(userNames).toContain("jocelynperez1")
         expect(userNames).toContain("jocelynperez2")
         expect(userNames).toContain("jocelynperez3")
