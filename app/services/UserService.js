@@ -8,6 +8,9 @@ class UserService {
         return Object.values(id, userName, name, bio, dateCreated, lastUpdated)
 
     }
+    static updateUserUserName (user, userName){
+        return user.setUserName = userName
+    }
 }
 
 
