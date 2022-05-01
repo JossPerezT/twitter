@@ -20,7 +20,7 @@ describe ('Tests para UserView', () =>{
         const payload = {username: "username", id: 1, name: "name"}
         const result = UserView.createUser (payload)
         expect(result.name).toBe("name")
-        expect(result.username).toBe("username")
+        expect(result.userName).toBe("username")
         expect(result.id).toBe(1)
     })
 })
