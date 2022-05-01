@@ -5,7 +5,7 @@ class UserView {
         if (payload === null){ 
             return { error:'payload no existe'}
         }
-        if (typeof payload.username === 'string', typeof payload.name === 'string', typeof payload.id === 'number' ){
+        if (typeof payload.username === 'string' && typeof payload.name === 'string' && typeof payload.id === 'number' ){
             return `Username: ${payload.username}. 
             Name: ${payload.name}. 
             ID: ${payload.id}`
