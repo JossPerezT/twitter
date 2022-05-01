@@ -6,13 +6,14 @@ class UserView {
             return { error:'payload no existe'}
         }
         if (typeof payload.username === 'string' && typeof payload.name === 'string' && typeof payload.id === 'number' ){
-            return `Username: ${payload.username}. 
-            Name: ${payload.name}. 
-            ID: ${payload.id}`
+            return UserService.create( payload.id, payload.username, payload.name)
         } else {
             return {error: 'necesitan tener un valor válido'}
         }
     }
 }
 
+const payload = {username: "username", id: 1, name: "name"}
+const result = UserView.createUser (payload)
+console.log (result)
 module.exports = UserView
