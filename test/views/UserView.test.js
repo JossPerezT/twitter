@@ -12,7 +12,7 @@ describe ('Tests para UserView', () =>{
         expect(result.error).toMatch(/necesitan tener un valor válido/)
     })
     test ('Requerimiento 3: Regresando un objeto con un error si no son todas las propiedaded requeridas', ()=>{
-        const payload = {username: "Username"}
+        const payload = {username: "Username", name: "name", id: 1}
         const result = UserView.createUser(payload)
         expect(result.error).toMatch(/necesitan tener un valor válido/)
     })  
